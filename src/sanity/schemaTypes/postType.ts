@@ -52,7 +52,7 @@ export const postType = defineType({
     }),
     defineField({
       name: 'body',
-      type: 'blockContent',
+      type: 'block',
     }),
   ],
   preview: {
